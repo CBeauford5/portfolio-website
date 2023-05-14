@@ -148,6 +148,10 @@ textarea {
   text-align: var(--text-middle);
 }
 
+.social-media--icon {
+  text-decoration: none;
+}
+
 .project-list__item {
   display: inline-block;
   width: 33%;

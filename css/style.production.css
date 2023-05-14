@@ -173,6 +173,10 @@ textarea {
   text-align: center;
 }
 
+.social-media--icon {
+  text-decoration: none;
+}
+
 .project-list__item {
   display: inline-block;
   width: 33%;
