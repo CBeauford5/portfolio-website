@@ -178,19 +178,21 @@ textarea {
   width: 33%;
 }
 
-.project-list {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 20px 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
+@supports (display: grid) {
+  .project-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
 
-.project-list__item {
-  background-color: lightgrey;
-  width: auto;
-  min-height: auto;
-  margin: 0;
+  .project-list__item {
+    background-color: lightgrey;
+    width: auto;
+    min-height: auto;
+    margin: 0;
+  }
 }
 
 .about-text {

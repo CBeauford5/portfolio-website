@@ -153,17 +153,19 @@ textarea {
   width: 33%;
 }
 
-.project-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
+@supports (display: grid) {
+  .project-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
 
-.project-list__item {
-  background-color: lightgrey;
-  width: auto;
-  min-height: auto;
-  margin: 0;
+  .project-list__item {
+    background-color: lightgrey;
+    width: auto;
+    min-height: auto;
+    margin: 0;
+  }
 }
 
 .about-text,
