@@ -134,6 +134,7 @@ textarea {
 .profile__portrait {
   float: left;
   width: 250px;
+  margin-left: 25px;
   margin-right: 55px;
   border-radius: 50%;
 }
